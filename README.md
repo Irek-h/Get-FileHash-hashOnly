@@ -10,3 +10,6 @@ Make variable out of hash from "Get-FileHash" function
 ```
 
 P.S. This is awful solution, but had to be done asap and couldn't find any Get-FileHash flag that would allow to get only hash as return value.
+---
+Or Just use `(Get-FileHash .\hash_test.txt).Hash`
+![obraz](https://user-images.githubusercontent.com/82705344/145983303-c2269d63-b6a8-41a0-8d7f-3f14e1d6c695.png)
